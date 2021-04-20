@@ -3,6 +3,37 @@ font-family:Courier, Impact, Arial;
 font-size:xx-large;
 font-style:bold;
 font-variant: small-caps;
-background-color: rgb(129, 41, 187);
-color:rgba(238, 242, 245, 0.959)
+background-color: rgb(116, 204, 216);
+color:rgb(66, 65, 65);
+text-align:center;
+display: block;
+height: 40px;
+border: 2px solid rgb(78, 76, 76);
+
+}
+
+h2 {
+    font-family:Courier, Impact, Arial;
+    font-size:xx-large;
+    font-variant: small-caps;
+    background-color: rgb(116, 204, 216);
+    color:rgb(66, 65, 65);
+    text-align:center;
+    display: inline;
+    height: 40px;
+    border: 2px solid rgb(78, 76, 76);
+    float: left;
+    position: relative;
+    left: 28%;
+    margin: 5px;
+    padding: 3px;
+
+}
+
+a{
+    font-family:Courier, Impact, Arial;
+    font-size:xx-large;
+    font-variant: petite-caps;
+    color:rgb(255, 0, 0);
+    text-align:center;
 }
