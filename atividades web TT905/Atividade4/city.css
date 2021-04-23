@@ -1,0 +1,93 @@
+    h1 {
+    font-family:Verdana, Tahoma, sans-serif;
+    font-size:xx-large;
+    font-style:bold;
+    font-variant: petite-caps;
+    background-color:royalblue;
+    color:silver;
+    text-align:center;
+    display: block;
+    clear: both;
+    height: 40px;
+    border: 2px solid black;
+    }
+
+    body{
+        background-color: silver;
+    }
+
+    video{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        clear: both;
+    }
+
+  /*  .my-sidedetails{
+        display: inline-block;
+        font-family:Verdana, Tahoma, sans-serif;
+        font-size:xx-large;
+        font-variant: small-caps;
+        background-color: royalblue;
+        text-align:center;
+        border:2px solid black;
+    }*/
+
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        clear: both;
+    }
+
+    a{
+        font-family:Verdana, Tahoma, sans-serif;
+        font-size:medium;
+        font-variant: small-caps;
+        text-align:center;
+        color: red;
+    }
+
+    ol{
+        font-family:Verdana, Tahoma, sans-serif;
+        font-size:large;
+        text-align:center;
+        margin-left: auto;
+        margin-right: auto;
+        list-style-position: inside;
+    }
+
+    table{
+        font-family:Verdana, Tahoma, sans-serif;
+        font-size:large;
+        text-align:center;
+        border: 2px solid black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    th{
+        font-family:Verdana, Tahoma, sans-serif;
+        font-size:large;
+        text-align:center;
+    }
+
+    summary{
+        font-family:Verdana, Tahoma, sans-serif;
+        font-size:large;
+        text-align:center;
+        background-color: royalblue;
+    }
+
+    details{
+        font-family:Verdana, Tahoma, sans-serif;
+        font-size:large;
+        text-align:center;
+        background-color: rgba(125, 143, 196, 0.89);
+       /* display: block;*/
+    }
+
+    span{
+        display: inline-block;
+        width: 45%;
+    }

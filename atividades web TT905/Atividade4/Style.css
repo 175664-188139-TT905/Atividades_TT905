@@ -1,0 +1,74 @@
+h1 {
+    font-family:Verdana, Tahoma, sans-serif;
+    font-size:xx-large;
+    font-style:bold;
+    font-variant: petite-caps;
+    background-color:orange;
+    color:black;
+    text-align:center;
+    display: block;
+    clear: both;
+    height: 40px;
+    border: 2px solid rgb(78, 76, 76);
+    
+    }
+
+body{
+    background-color: lightslategray;
+}
+
+.cabecalho{
+    font-family:Verdana, Tahoma, sans-serif;
+    font-size:xx-large;
+    text-align:center;
+}
+
+a{
+    color: orange;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+details{
+    color: red;
+}
+
+
+
+summary{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:xx-large;
+    font-style:bold;
+    font-variant:small-caps;
+}
+
+span{
+
+    background-color: teal;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+.a1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:x-large;
+    font-style:normal;
+    font-variant: small-caps;
+   
+
+}
+
+.lista{
+    color: white;
+    display: inline-block;
+
+    background-color: green;
+    height: 50%;
+    width: 50%;
+}

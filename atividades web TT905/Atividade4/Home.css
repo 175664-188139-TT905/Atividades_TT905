@@ -3,28 +3,28 @@ font-family:Courier, Impact, Arial;
 font-size:xx-large;
 font-style:bold;
 font-variant: small-caps;
-background-color: rgb(116, 204, 216);
-color:rgb(66, 65, 65);
+background-color: rgb(30, 98, 129);
+color:greenyellow;
 text-align:center;
 display: block;
 height: 40px;
-border: 2px solid rgb(78, 76, 76);
+border: 2px solid rgb(3, 3, 3);
 
 }
 
-h2 {
+.cabecalho {
     font-family:Courier, Impact, Arial;
     font-size:xx-large;
     font-variant: small-caps;
-    background-color: rgb(116, 204, 216);
-    color:rgb(66, 65, 65);
+    background-color: rgb(30, 98, 129);
+    color:greenyellow;
     text-align:center;
     display: inline;
     height: 40px;
     border: 2px solid rgb(78, 76, 76);
     float: left;
     position: relative;
-    left: 28%;
+    left: 30%;
     margin: 5px;
     padding: 3px;
 
@@ -34,6 +34,10 @@ a{
     font-family:Courier, Impact, Arial;
     font-size:xx-large;
     font-variant: petite-caps;
-    color:rgb(255, 0, 0);
+    color:greenyellow;
     text-align:center;
+}
+
+body{
+    background-color: rgb(126, 27, 27);
 }
