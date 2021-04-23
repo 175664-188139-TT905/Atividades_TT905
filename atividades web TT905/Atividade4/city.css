@@ -4,12 +4,26 @@
     font-style:bold;
     font-variant: petite-caps;
     background-color:royalblue;
-    color:silver;
+    color:black;
     text-align:center;
     display: block;
     clear: both;
     height: 40px;
     border: 2px solid black;
+    }
+
+    h2{
+    text-align: center;
+    font-family:Verdana, Tahoma, sans-serif;
+    font-size:larger;
+    clear:both;
+    display:inline-block;
+    margin: 20px;
+    margin-top: 30px;
+    }
+
+    .my-h1{
+        color: silver;
     }
 
     body{
@@ -22,16 +36,6 @@
         margin-right: auto;
         clear: both;
     }
-
-  /*  .my-sidedetails{
-        display: inline-block;
-        font-family:Verdana, Tahoma, sans-serif;
-        font-size:xx-large;
-        font-variant: small-caps;
-        background-color: royalblue;
-        text-align:center;
-        border:2px solid black;
-    }*/
 
     img{
         display: block;
@@ -46,14 +50,15 @@
         font-variant: small-caps;
         text-align:center;
         color: red;
+        clear:both;
+        height:20px;
     }
 
     ol{
         font-family:Verdana, Tahoma, sans-serif;
         font-size:large;
-        text-align:center;
-        margin-left: auto;
-        margin-right: auto;
+        text-align:justify;
+        margin-top: 2px;
         list-style-position: inside;
     }
 
@@ -76,18 +81,18 @@
         font-family:Verdana, Tahoma, sans-serif;
         font-size:large;
         text-align:center;
-        background-color: royalblue;
+        background-color: rgb(65, 148, 225);
+        margin: 5px;
     }
 
     details{
         font-family:Verdana, Tahoma, sans-serif;
         font-size:large;
         text-align:center;
-        background-color: rgba(125, 143, 196, 0.89);
-       /* display: block;*/
+        background-color: rgba(166, 185, 241, 0.89);
     }
 
-    span{
+    div{
         display: inline-block;
-        width: 45%;
+        width: 49%;
     }
