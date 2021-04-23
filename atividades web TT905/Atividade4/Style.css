@@ -53,6 +53,7 @@ span{
     background-color: teal;
     display: inline-block;
     border: 2px solid black;
+    width: 600px;
 }
 
 .a1{
