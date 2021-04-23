@@ -34,15 +34,9 @@ img{
     width: 20%;
 }
 
-details{
-    color: red;
-}
-
-
-
 summary{
-    color:white;
-    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:xx-large;
     font-style:bold;
     font-variant:small-caps;
@@ -50,26 +44,36 @@ summary{
 
 span{
 
-    background-color: teal;
+    background-color: orange;
     display: inline-block;
     border: 2px solid black;
-    width: 600px;
+    
+    padding:10px;
 }
 
-.a1{
-    font-family: 'Courier New', Courier, monospace;
-    font-size:x-large;
+.s1{
+    width: 26%;
+}
+
+.s2{
+    width: 70%;
+}
+
+ul{
+    color: black;
+    display: inline-block;
+    font-size: x-large;
     font-style:normal;
     font-variant: small-caps;
-   
-
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 50%;
+    width: 100%;
 }
 
-.lista{
-    color: white;
-    display: inline-block;
-
-    background-color: green;
-    height: 50%;
-    width: 50%;
+.inf{
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:xx-large;
+    font-style:bold;
+    font-variant:small-caps;
 }
