@@ -9,8 +9,8 @@ h1 {
     display: block;
     clear: both;
     height: 40px;
-    border: 2px solid rgb(78, 76, 76);
-    
+    border: 3px solid black;
+     
     }
 
 body{
@@ -40,6 +40,9 @@ summary{
     font-size:xx-large;
     font-style:bold;
     font-variant:small-caps;
+    background-color: orange;
+    border: 3px solid black;
+    
 }
 
 span{
@@ -76,4 +79,10 @@ ul{
     font-size:xx-large;
     font-style:bold;
     font-variant:small-caps;
+}
+
+details{
+    
+   
+    margin: 3px;
 }
