@@ -25,6 +25,7 @@ body{
 
 a{
     color: orange;
+    display: inline;
 }
 
 img{
@@ -84,4 +85,8 @@ details{
     
    
     margin: 3px;
+}
+
+.lista{
+    display:block;
 }
