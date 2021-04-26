@@ -14,7 +14,7 @@ h1 {
     }
 
 body{
-    background-color: lightslategray;
+    background-color:lightgray;
 }
 
 .cabecalho{
@@ -23,10 +23,7 @@ body{
     text-align:center;
 }
 
-a{
-    color: orange;
-    display: inline;
-}
+
 
 img{
     display: block;
@@ -89,4 +86,29 @@ details{
 
 .lista{
     display:block;
+}
+
+a{
+    background-color: black;
+    color: orange;
+    display: inline;
+    border: 2px solid ;
+    padding: 10px;
+}
+
+a:hover{
+    background-color: darkgray;
+    color:darkgreen;
+    border: 2px solid darkgreen;
+    
+}
+a:focus{
+    background-color: darkgray;
+    color:darkred;
+    border: 2px solid darkred;
+}
+a:active{
+    background-color: gray;
+    color:orangered;
+    border: 2px solid orangered;
 }
