@@ -3,14 +3,14 @@ h1 {
     font-size:xx-large;
     font-style:bold;
     font-variant: petite-caps;
-    background-color:orange;
+    background:linear-gradient(to bottom right, darkviolet 10%, blue 30%,green 45%, orange 70%, darkred 90%);
     color:black;
     text-align:center;
     display: block;
     clear: both;
     height: 40px;
     border: 3px solid black;
-     
+    border-radius: 20px;
     }
 
 body{
@@ -21,6 +21,7 @@ body{
     font-family:Verdana, Tahoma, sans-serif;
     font-size:x-large;
     text-align:center;
+    border-radius:15px;
 }
 
 
@@ -30,6 +31,12 @@ img{
     margin-left: auto;
     margin-right: auto;
     width: 20%;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+img:hover{
+    transform: scale(2) rotateX(360deg);
 }
 
 summary{
@@ -40,8 +47,20 @@ summary{
     font-variant:small-caps;
     background-color: orange;
     border: 3px solid black;
-    
+    transition-property: color, background;
+    transition-duration: 1s;
+    transition-delay: 0,2s;
+    transition-timing-function: linear;
+    border-radius: 10px;
 }
+
+summary:hover{
+    background-color: darkolivegreen;
+}
+summary:active{
+    color:orangered;
+}
+
 
 span{
 
@@ -49,6 +68,7 @@ span{
     display: inline-block;
     border: 3px solid black;
     padding:10px;
+    border-radius: 10px;
 }
 
 .s1{
@@ -68,6 +88,7 @@ ul{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     height: 50%;
     width: 100%;
+    border-radius:10px;
 }
 
 .inf{
@@ -79,8 +100,6 @@ ul{
 }
 
 details{
-    
-   
     margin: 3px;
 }
 
@@ -94,13 +113,19 @@ a{
     display: inline;
     border: 2px solid ;
     padding: 10px;
+    border-radius: 20px;
+}
+
+a:visited{
+    background-color: darkgray;
+    color:darkblue;
+    border: 2px solid darkblue;
 }
 
 a:hover{
     background-color: darkgray;
     color:darkgreen;
     border: 2px solid darkgreen;
-    
 }
 a:focus{
     background-color: darkgray;
@@ -112,3 +137,4 @@ a:active{
     color:orangered;
     border: 2px solid orangered;
 }
+
