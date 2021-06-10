@@ -17,12 +17,14 @@ border: 2px solid rgb(3, 3, 3);
     background-color: rgb(30, 98, 129);
     color:greenyellow;
     text-align:center;
-    display: inline;
+   /* display: inline;*/
+   display: block;
     height: 40px;
     border: 5px solid rgb(78, 76, 76);
-    float: left;
+    text-align: center;
+   /* float: left;
     position: relative;
-    left: 25%;
+    left: 25%;*/
     margin: 10px;
     padding: 10px;
     clear:both;
